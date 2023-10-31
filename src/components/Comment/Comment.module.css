@@ -1,0 +1,27 @@
+
+.wrapper {
+    display: flex;
+    gap: 5px;
+    padding: 10px 5px;
+    margin-bottom: 7px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+
+.avatar {
+    max-width: 80px;
+    max-height: 80px;
+
+    border-radius: 50%;
+    border: 1px solid #e3e3e2;
+    overflow: hidden;
+}
+
+.name {
+    display: inline-block;
+    margin: 7px 0;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}

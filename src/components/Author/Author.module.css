@@ -1,0 +1,33 @@
+.wrapper {
+    background-color: #cce7ff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.avatar {
+    max-width: 130px;
+    max-height: 130px;
+
+    border-radius: 50%  ;
+    overflow: hidden;
+    border: 3px solid #e3e3e2;
+    background-color: #fff;
+}
+.name {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}

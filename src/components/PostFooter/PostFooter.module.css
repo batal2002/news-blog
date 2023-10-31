@@ -1,0 +1,57 @@
+.card {
+    background-color: #fff;
+    padding: 20px;
+
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 19px 0px rgba(34, 60, 80, 0.25);
+}
+.wrapper {
+
+    display: block;
+    text-decoration: none;
+    color: #111111;
+}
+.title {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.body {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 17px;
+}
+.tags {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reaction {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.counter {
+    font-weight: 600;
+    color: #0062f2;
+}

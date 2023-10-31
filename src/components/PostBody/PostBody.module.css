@@ -1,0 +1,14 @@
+.wrapper {
+    margin-bottom: 20px;
+}
+.title {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.body {
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    text-align: justify;
+}
